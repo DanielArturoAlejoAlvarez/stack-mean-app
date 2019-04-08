@@ -1,0 +1,28 @@
+.navbar {
+    background-image: linear-gradient(
+        #333, #666
+    );
+    box-shadow: 0px 4px 20px rgba(0,0,0,.4);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 30px;
+    color: orangered;
+    &:hover{
+        color: red;
+    }
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: white!important;
+    font-weight: 600;
+    transform: rotateY(0deg);
+    transition: transform .8s ease-in-out;
+    &:hover{
+        color: orangered!important;
+        transform: rotateX(360deg);
+    }
+}

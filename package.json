@@ -1,0 +1,28 @@
+{
+  "name": "stack-mean-app",
+  "version": "1.0.0",
+  "description": "Software of Development with the stack MEAN",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [
+    "MongoDB",
+    "Express",
+    "Angular",
+    "Nodejs"
+  ],
+  "author": "Daniel Alejo Alvarez <yourmediasoft@gmail.com> (http://danapps.herokuapp.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19",
+    "morgan": "^1.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielarturoalejoalvarez/stack-mean-app.git"
+  },
+  "devDependencies": {}
+}

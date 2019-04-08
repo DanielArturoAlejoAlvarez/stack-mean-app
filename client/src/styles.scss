@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:100,300,400,600,700,900);
+
+
+$be-red: #F22B2B;
+$be-white: #F6F6F8;
+$be-dark: #313131;
+$be-black: #000000;
+
+
+body {
+    background: $be-white!important;
+    color: $be-black;
+    font-size: 18px;
+    font-family: 'Fira Sans',sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
